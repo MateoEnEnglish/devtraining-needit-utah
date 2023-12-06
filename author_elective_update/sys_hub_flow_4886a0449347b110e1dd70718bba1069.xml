@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-utah-12-21-2022__patch7a-09-28-2023_10-10-2023_1258.zip</compiler_build>
+        <copied_from>5f3405bb93f67110e1dd70718bba1095</copied_from>
+        <copied_from_name>NeedIt Fulfillment</copied_from_name>
+        <description>Stops to approve and fulfill NeedIt requests</description>
+        <internal_name>copy_of_needit_fulfillment</internal_name>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.current.u_requested_for.manager","label":"Trigger - Record Created➛NeedIt Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Copy of NeedIt Fulfillment</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2023-12-06 14:13:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4886a0449347b110e1dd70718bba1069</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of NeedIt Fulfillment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_4886a0449347b110e1dd70718bba1069</sys_update_name>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2023-12-06 14:13:07</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=4886a0449347b110e1dd70718bba1069"/>
+    <sys_variable_value action="DELETE" query="document_key=4886a0449347b110e1dd70718bba1069"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=4886a0449347b110e1dd70718bba1069"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=4886a0449347b110e1dd70718bba1069"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=4886a0449347b110e1dd70718bba1069^sys_idNOT IN4086a0449347b110e1dd70718bba106a"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>4886a0449347b110e1dd70718bba1069</id>
+        <name>Copy of NeedIt Fulfillment</name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2023-12-06 14:13:07</sys_created_on>
+        <sys_id>4086a0449347b110e1dd70718bba106a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2023-12-06 14:13:07</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=4086a0449347b110e1dd70718bba106a"/>
+    <sys_hub_flow_input action="DELETE" query="model=4886a0449347b110e1dd70718bba1069"/>
+    <sys_hub_flow_output action="DELETE" query="model=4886a0449347b110e1dd70718bba1069"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=4886a0449347b110e1dd70718bba1069"/>
+    <sys_hub_action_instance action="DELETE" query="flow=4886a0449347b110e1dd70718bba1069"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=4886a0449347b110e1dd70718bba1069"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=4886a0449347b110e1dd70718bba1069"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=4886a0449347b110e1dd70718bba1069"/>
+    <sys_hub_flow_variable action="DELETE" query="model=4886a0449347b110e1dd70718bba1069"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_4886a0449347b110e1dd70718bba1069"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_4886a0449347b110e1dd70718bba1069"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_4886a0449347b110e1dd70718bba1069"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_4886a0449347b110e1dd70718bba1069"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=4886a0449347b110e1dd70718bba1069"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=4886a0449347b110e1dd70718bba1069"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>fecaaf811b2a35d8699443f4bd4bcbaa</instance_id>
+        <instance_name>dev212092</instance_name>
+        <name>sys_hub_flow_4886a0449347b110e1dd70718bba1069</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><callable_by_client_api>false</callable_by_client_api><category/><compiler_build>glide-utah-12-21-2022__patch7a-09-28-2023_10-10-2023_1258.zip</compiler_build><copied_from>5f3405bb93f67110e1dd70718bba1095</copied_from><copied_from_name>NeedIt Fulfillment</copied_from_name><description>Stops to approve and fulfill NeedIt requests</description><internal_name>copy_of_needit_fulfillment</internal_name><label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.current.u_requested_for.manager","label":"Trigger - Record Created➛NeedIt Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"}]</label_cache><latest_snapshot/><master_snapshot/><name>Copy of NeedIt Fulfillment</name><natlang/><outputs/><pre_compiled>false</pre_compiled><remote_trigger_id/><run_as>user</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>fred.luddy</sys_created_by><sys_created_on>2023-12-06 14:13:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4886a0449347b110e1dd70718bba1069</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Copy of NeedIt Fulfillment</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_hub_flow_4886a0449347b110e1dd70718bba1069</sys_update_name><sys_updated_by>fred.luddy</sys_updated_by><sys_updated_on>2023-12-06 14:13:07</sys_updated_on><type>flow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=4886a0449347b110e1dd70718bba1069"/><sys_variable_value action="delete_multiple" query="document_key=4886a0449347b110e1dd70718bba1069"/><sys_hub_trigger_instance action="delete_multiple" query="flow=4886a0449347b110e1dd70718bba1069"/><sys_hub_flow_stage action="delete_multiple" query="flow=4886a0449347b110e1dd70718bba1069"/><sys_flow_cat_variable_model action="delete_multiple" query="id=4886a0449347b110e1dd70718bba1069^sys_idNOT IN4086a0449347b110e1dd70718bba106a"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>4886a0449347b110e1dd70718bba1069</id><name>Copy of NeedIt Fulfillment</name><sys_created_by>fred.luddy</sys_created_by><sys_created_on>2023-12-06 14:13:07</sys_created_on><sys_id>4086a0449347b110e1dd70718bba106a</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>fred.luddy</sys_updated_by><sys_updated_on>2023-12-06 14:13:07</sys_updated_on></sys_flow_cat_variable_model><sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=4086a0449347b110e1dd70718bba106a"/><sys_hub_flow_input action="delete_multiple" query="model=4886a0449347b110e1dd70718bba1069"/><sys_hub_flow_output action="delete_multiple" query="model=4886a0449347b110e1dd70718bba1069"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=4886a0449347b110e1dd70718bba1069"/><sys_hub_action_instance action="delete_multiple" query="flow=4886a0449347b110e1dd70718bba1069"/><sys_hub_sub_flow_instance action="delete_multiple" query="flow=4886a0449347b110e1dd70718bba1069"/><sys_hub_flow_logic action="delete_multiple" query="flow=4886a0449347b110e1dd70718bba1069"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=4886a0449347b110e1dd70718bba1069"/><sys_hub_flow_variable action="delete_multiple" query="model=4886a0449347b110e1dd70718bba1069"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_4886a0449347b110e1dd70718bba1069"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_4886a0449347b110e1dd70718bba1069"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_4886a0449347b110e1dd70718bba1069"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_4886a0449347b110e1dd70718bba1069"/><sys_flow_trigger_plan action="delete_multiple" query="plan_id=4886a0449347b110e1dd70718bba1069"/><sys_flow_subflow_plan action="delete_multiple" query="plan_id=4886a0449347b110e1dd70718bba1069"/></record_update>]]></payload>
+        <payload_hash>534772584</payload_hash>
+        <record_name>Copy of NeedIt Fulfillment</record_name>
+        <reverted_from/>
+        <source>405090f793367110e1dd70718bba109f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2023-12-06 14:13:07</sys_created_on>
+        <sys_id>0c86a0449347b110e1dd70718bba106f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c3f79ab420000001</sys_recorded_at>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2023-12-06 14:13:07</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>4086a044c347b1104f2db7acf845536f</update_guid>
+        <update_guid_history>4086a044c347b1104f2db7acf845536f:534772584</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2023-12-06 14:18:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>4dfe7a14120e43eab9d1d5e5b1853ec4</sys_id>
+        <sys_metadata>4886a0449347b110e1dd70718bba1069</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of NeedIt Fulfillment</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_4886a0449347b110e1dd70718bba1069</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_4886a0449347b110e1dd70718bba1069">0c86a0449347b110e1dd70718bba106f</sys_update_version>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2023-12-06 14:18:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
